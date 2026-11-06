@@ -1,0 +1,20 @@
+{
+    "vocab_size": 5000,
+    "embedding_dim": 64,
+    "max_len": 100,
+    "lstm_units": 64,
+    "dense_units": 32,
+    "batch_size": 32,
+    "epochs_requested": 10,
+    "epochs_completed": 10,
+    "dataset_stats": {
+        "raw_total": 5572,
+        "missing_dropped": 0,
+        "duplicates_dropped": 403,
+        "final_total": 5157,
+        "ham_count": 4504,
+        "spam_count": 653,
+        "label_col_detected": "v1",
+        "message_col_detected": "v2"
+    }
+}

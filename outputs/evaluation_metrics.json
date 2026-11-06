@@ -1,0 +1,46 @@
+{
+    "accuracy": 0.9874031007751938,
+    "precision": 0.946969696969697,
+    "recall": 0.9541984732824428,
+    "f1_score": 0.9505703422053232,
+    "confusion_matrix": [
+        [
+            894,
+            7
+        ],
+        [
+            6,
+            125
+        ]
+    ],
+    "classification_report": {
+        "HAM (Legit)": {
+            "precision": 0.9933333333333333,
+            "recall": 0.9922308546059934,
+            "f1-score": 0.9927817878956136,
+            "support": 901.0
+        },
+        "SPAM": {
+            "precision": 0.946969696969697,
+            "recall": 0.9541984732824428,
+            "f1-score": 0.9505703422053232,
+            "support": 131.0
+        },
+        "accuracy": 0.9874031007751938,
+        "macro avg": {
+            "precision": 0.9701515151515152,
+            "recall": 0.9732146639442181,
+            "f1-score": 0.9716760650504683,
+            "support": 1032.0
+        },
+        "weighted avg": {
+            "precision": 0.9874480267794221,
+            "recall": 0.9874031007751938,
+            "f1-score": 0.9874235520570205,
+            "support": 1032.0
+        }
+    },
+    "test_samples_count": 1032,
+    "test_ham_count": 901,
+    "test_spam_count": 131
+}
